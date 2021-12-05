@@ -1,45 +1,52 @@
 .section {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-width: 124px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .title {
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    padding: 12px 0;
-    margin: 6px;
-    border-radius: 4px;
-    cursor: pointer;
-    background-color: #00d564;
-    background-color: #0f9d58;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 0;
+  margin: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #00d564;
+  background-color: #0f9d58;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .title:hover {
-    filter: brightness(95%);
-}
-
-.Kakao {
-    background-color: #ffe812;
-    background-color: #4285f4;
-}
-.Kakaopage {
-    background-color: #ffd200;
-    background-color: #f4b400;
-}
-
-.etc {
-    background-color: #db4437;
+  filter: brightness(95%);
 }
 
 .cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 860px) {
+  .title {
+    font-size: 12px;
+    padding: 8px 0;
+    margin: 2px;
+  }
+}
+
+.Kakao {
+  background-color: #ffe812;
+  background-color: #4285f4;
+}
+.Kakaopage {
+  background-color: #ffd200;
+  background-color: #f4b400;
+}
+
+.etc {
+  background-color: #db4437;
 }
