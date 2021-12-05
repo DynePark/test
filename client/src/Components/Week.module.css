@@ -1,0 +1,22 @@
+.week {
+    background-color: #fff;
+    width: 100%;
+    padding-top: 4px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.week ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.week li {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+.week li:hover {
+    border-bottom: 2px solid red;
+}
