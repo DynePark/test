@@ -14,8 +14,11 @@ function Header() {
             <div className={styles.icons}>
                 <i class="fas fa-search"></i>
                 <i class="fas fa-folder-open"></i>
-                <Link to="/login">
+                <Link to="/user">
                     <i class="fas fa-user"></i>
+                </Link>
+                <Link to="/login">
+                    <i class="fas fa-lock"></i>{" "}
                 </Link>
                 <i class="fas fa-bars"></i>
             </div>
